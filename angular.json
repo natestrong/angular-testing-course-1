@@ -90,7 +90,7 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-devkit/build-angular",
           "options": {
             "tsConfig": [
               "src/tsconfig.app.json",
@@ -116,7 +116,7 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-devkit/build-angular",
           "options": {
             "tsConfig": [
               "e2e/tsconfig.e2e.json"
